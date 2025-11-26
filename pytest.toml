@@ -1,0 +1,6 @@
+[pytest]
+addopts = ["--strict-markers"]
+markers = [
+    "find_best_station: Test for the function `find_best_station` in greedy_search.",
+    "greedy_search_global: Test for the function `greedy_search_global` in greedy_search.",
+]
